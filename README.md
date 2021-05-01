@@ -5,6 +5,12 @@ Get an email notification if there is a vaccination slot available at your locat
 
 NB: There is no guarantee if CoWin blocks API
 
+## Use Cases
+* Able to get slots by District - (Pass only district_id or pincode at a time). 
+* Able to get slots by Pincode - (Pass only district_id or pincode at a time).
+* Filter by age (45 or 18) - By default is 45 (optional).
+* Filter by date ("DD/MM/YYYY")- By default date is taken as Tomorrow (optional).
+
 ## Starting app
 
     $ python app.py
