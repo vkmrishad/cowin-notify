@@ -1,0 +1,19 @@
+# Email Config
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_HOST_USER=xxxxxxxxxx@gmail.com
+EMAIL_HOST_PASSWORD=xxxxxxxxxxxx
+
+# Email
+FROM_EMAIL=xxxxxxxxxxxxxxx@gmail.com
+TO_EMAIL=xxxxxxxxxxxxxxxxx@gmail.com
+
+# Notification Interval
+TIME_IN_SECONDS=60
+
+# Params (Use DISTRICT_ID or PINCODE  at a time, DATE (DD/MM/YYYY) and AGE (45 or 18) is Optional)
+DISTRICT_ID=311
+#PINCODE=360520
+#AGE=45
+#DATE=03/05/2021
+

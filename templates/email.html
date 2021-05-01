@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Slot Available</h2>
+    <table>
+        <tr>
+            <th>Center</th>
+            <th>Dates</th>
+        </tr>
+        {% for center in data %}
+            <tr>
+                <td>{{ data[center]['name'] }}</td>
+                <td>
+                    {% for date in data[center]['dates'] %}
+                        {{ date }}<br>
+                    {% endfor %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+    <br>
+{% endblock %}
