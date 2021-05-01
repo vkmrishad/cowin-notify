@@ -3,6 +3,8 @@ CoWin Vaccination Slot Availablity Email Notification Using Python
 
 Get an email notification if there is a vaccination slot available at your location, by running this script on your computer.
 
+NB: There is no guarantee if CoWin blocks API
+
 ## Starting app
 
     $ python app.py
