@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "cowin-notify"
 version = "1.0.0"
-description = "dddd"
+description = "CoWin Vaccination Slot Availablity Email Notification Using Python"
 authors = ["Mohammed Rishad <mohammedrishad.vk@gmail.com>"]
 
 [tool.poetry.dependencies]
